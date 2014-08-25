@@ -45,4 +45,5 @@ print(cubes_above_three)
 
 
 #Generator expressions
-#natural_numbers_list = (number**3 for number in range(1000000000))
+natural_numbers_list = (number**3 for number in range(100000))
+print(natural_numbers_list)

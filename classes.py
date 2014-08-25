@@ -20,7 +20,6 @@ myPart = Part("3L5Z 15A35-AA", "Oil filter", 2000)
 
 print(myPart.get_price(10.0))
 
-
 class FinisPart(Part):
     def __init__(self):
         pass
